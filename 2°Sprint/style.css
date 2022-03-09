@@ -1,0 +1,178 @@
+
+*{
+    padding: 0;    
+}
+.titulo{
+    text-align:center;
+    background-color: rgb(23, 169, 189);
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 30em;
+    padding: 5px; 
+}
+
+.borda1{
+    border: solid;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #E6E6F2;
+}
+.borda2{
+    border: solid;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(230, 230, 242);
+}
+.borda3{
+    border: solid;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: lavender;
+}
+
+/*Alinhamentos e formatação de texto*/
+
+p{
+   color:black;
+   font-family: 'Arial, sans-serif';
+   font-weight: bold;
+
+}
+
+
+.form{
+    font-size: 25px;
+    font-family: 'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-style: normal;
+    text-indent: 200px;
+    text-decoration: underline;
+    }
+.form1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: small-caps;
+    text-align: left;
+    text-decoration: overline;
+}
+.form2{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: right;
+    text-decoration: line-through;
+}
+.form3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form4{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+/*Manipulando os backgrounds*/
+
+.img{
+    display: inline-block;
+    border: 2px solid black;
+    width: 35em;
+    height: 4em;
+    background-size: 7em;
+    background-image: url(/brq.png);
+    background-repeat: repeat-x;
+    background-position: left;
+    
+}
+.img1{
+    display: inline-block;
+    border: 2px solid black;
+    width: 7em;
+    height: 13em;
+    background-size: 7em;
+    background-image: url(/brq.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.img2{
+    display: inline-block;
+    border: 2px solid black;
+    width: 35em;
+    height: 7em;
+    background-size: 7em;
+    background-image: url(/brq.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.img3{
+    display: inline-block;
+    border: 2px solid black;
+    width: 35em;
+    height: 7em;
+    background-size: 7em;
+    background-image: url(/brq.png);
+    background-repeat: no-repeat;
+    background-position: Bottom;
+}
+.img4{
+    background-attachment: fixed;
+    width: 117em;
+    height: 25em;
+    background-size: 15em;
+    background-image: url(/brq.png);
+    background-position: center;
+    border: 2px solid black;  
+    background-repeat: no-repeat;
+    
+}
+
+#titulo1{
+    margin-top: 1rem;    
+}
+
+.bor {
+    border: 1px solid #555454a6;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0.4em 0.4em 1em -0.2em rgb(161, 159, 155);
+    padding: 1rem;
+}
+
+.bor2{
+    border: 3px #919191a6;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: double;
+    border-left-color: #391e66;
+}
+
+
+.card{
+    height: 100px;
+    width: 22em;
+    border: 1px solid;
+    display: inline-block;
+    
+}
+
+.card.yellow{
+    background-color: yellow;
+}
+
+.card.red{
+    background-color: red;
+}
+.card.blue{
+    background-color: blue;
+}
+
+
+
