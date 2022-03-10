@@ -85,7 +85,7 @@ p{
     width: 35em;
     height: 4em;
     background-size: 7em;
-    background-image: url(/brq.png);
+    background-image: url(brq.png);
     background-repeat: repeat-x;
     background-position: left;
     
@@ -96,7 +96,7 @@ p{
     width: 7em;
     height: 13em;
     background-size: 7em;
-    background-image: url(/brq.png);
+    background-image: url(brq.png);
     background-repeat: repeat-y;
     background-position: right;
 }
@@ -106,7 +106,7 @@ p{
     width: 35em;
     height: 7em;
     background-size: 7em;
-    background-image: url(/brq.png);
+    background-image: url(brq.png);
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -117,7 +117,7 @@ p{
     width: 35em;
     height: 7em;
     background-size: 7em;
-    background-image: url(/brq.png);
+    background-image: url(brq.png);
     background-repeat: no-repeat;
     background-position: Bottom;
 }
@@ -126,7 +126,7 @@ p{
     width: 117em;
     height: 25em;
     background-size: 15em;
-    background-image: url(/brq.png);
+    background-image: url(brq.png);
     background-position: center;
     border: 2px solid black;  
     background-repeat: no-repeat;
