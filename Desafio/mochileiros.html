@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voo - Mochileiros</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mochileiros.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <a href="./index.html">
+                <img alt="Logo da voo" src="./img/logo-voo.png" />
+            </a>
+
+            <form class="cabecalho__formulario">
+                <input class="cabecalho__formulario__input" type="text" />
+                <button class="cabecalho__formulario__button">buscar</button>
+            </form>
+
+            <nav class="cabecalho__menu">
+                <ul>
+                    <li class="cabecalho__menu__item">
+                        <a href="index.html">Noticias</a>
+                    </li>
+                    <li class="cabecalho__menu__item">
+                        <a href="destinos.html">Destinos</a>
+                    </li>
+                    <li class="cabecalho__menu__item  cabecalho__menu__item--active">
+                        <a href="#.html">Mochileiros</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="mochileiros container">
+            <h1>Conheça o mundo e as belissímas coisas</h1>
+            <article class="mochileiros__card">
+                <img src="./img/mochileiros/foto1.png" alt="Marcela Pinho">
+                <h3>Marcela Pinho</h3>
+                <p>Conhecer lugares novos me proporcionou oportunidades cada vez maiores de aprimorar o idioma e de
+                    conseguir uma vaga em uma empresa internacional </p>
+            </article>
+            <article class="mochileiros__card">
+                <img src="./img/mochileiros/foto2.png" alt="Fernando Munhoz">
+                <h3>Fernando Munhoz</h3>
+                <p>Sou apaixonado por viagem e por conhecer coisas novas. Acredito que todos nos deviamos se dedicar um
+                    tempo para aproveitar o que o mundo tem a nos oferecer</p>
+            </article>
+            <article class="mochileiros__card">
+                <img src="./img/mochileiros/foto3.png" alt="Camila Silva">
+                <h3>Camila Silva</h3>
+                <p>Minhas experiencias com viagem foi muito para aprimorar cada vez mais o idioma inglês e visitar meus
+                    amigos </p>
+            </article>
+        </section>
+        <section class="background">
+            <p>Conheça o mundo e as coisas </p>
+        </section>
+        <section class="comentario container">
+            <h1>Deixe seu comentário</h1>
+            <form class="comentario__form" method="post">
+                <div class="comentario__form___box">
+                    <input id="name" class="comentario__input" type="text" name="name" placeholder="Digite seu nome" />
+                    <label for="image" class="comentario__label--file">
+                        Insira uma imagem
+                        <input id="image" class="comentario__input comentario__input--file" type="file" name="image"
+                            placeholder="Insira uma imagem" accept="image/*" />
+                    </label>
+                </div>
+
+                <textarea id="comentario-text" class="comentario__text" name="comentario-text"
+                    placeholder="Deixe seu comentário..."></textarea>
+
+                <button class="comentario__form___button" type="button">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__contato">
+                <h2>Informação Empresa</h2>
+                <li>Tel: <a href="tel:+55-11-4100-0000">(11) 4100-0000</a></li>
+                <li>E-mail: <a href="mailto:voa@com.br">voa@com.br</a></li>
+                <li>CNPJ: 01.001.001/0001-01</li>
+            </ul>
+
+            <a href="./index.html" class="footer__link">
+                <img class="footer__link__logo" alt="Voo logo" src="./img/logo-voo.png" />
+            </a>
+        </div>
+    </footer>
+</body>

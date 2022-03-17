@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/brq1.png" type="img/png">
+    <link rel="icon" href="./imagens/ico.png" type="img/png">
     <link rel="stylesheet" href="style.css">
     <title>Sprint 3</title>
 </head>
@@ -15,10 +15,23 @@
                 <a id="font" href="login.html">Entrar</a>
                 <a id="font" href="consultar.html">Consultar</a>         
                 <a id="font" href="cidades.html">Cidades</a>
-    </header>
+    </header>   
     <section class="sessao">
-        
-        <h1 class="brq">Formação Front-end BRQ</h1>
+        <div class="formcontainer">
+                    
+            <h2 class="mb">Formulário de cadastro</h2>
+            <p class="mb">Cadastre-se e fique por dentro de todas as novidades.</p>
+        <form>
+            
+            <input id="name" name="nome" type="text" placeholder="Nome" title="Nome completo" required>
+            <input id="email" name="email" type="email" placeholder="Email" title="Campo obrigatório" required>
+            <input id="password" nome="senha" type="password" placeholder="Senha" title="Campo obrigatório" required>
+            <input id="cpf" name="numero"  type="text" placeholder="CPF" title="Campo obrigatório" required>
+            <input id="tel" name="telefone"  type="tel" placeholder="Telefone (DD) 0-0000-0000" title="Preencher celular ou fixo com 'DD'" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+
+            <input class="input" type="submit" value="INSCREVA-SE">
+        </form>
+    </div>
 
     </section>
 

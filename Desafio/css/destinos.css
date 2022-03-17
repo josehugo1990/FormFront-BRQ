@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.main {
+    margin-bottom: 28px;
+}
+
+.main h1 {
+    margin-bottom: 29px;
+}
+
+.artigo .container {
+    align-items: center;
+    display: flex;
+}
+
+.artigo {
+    padding: 28px 0;
+}
+
+.artigo__texto p{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    line-height: 21.78px;
+    text-align: center;
+}
+
+.artigo__texto a {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 15.17px;
+    display: block;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.bg-pastel-100 {
+    background-color: var(--cyan-pastel-100);    
+}
+
+.mr-img {
+    margin-right: 69px;
+}
+
+.ml-img {
+    margin-left: 45px;
+}

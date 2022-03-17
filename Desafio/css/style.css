@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url(./colors.css);
+@import url(./reset.css);
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    color: var(--black);
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 856px;
+    padding: 0 16px;
+}
+
+.main {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.cabecalho {
+    background-color: var(--cyan-400);
+    color: var(--white);
+    height: 158px;
+}
+
+.cabecalho .container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.cabecalho__formulario {
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    height: 38px;
+    margin-top: 26px;
+    width: 250px;
+}
+
+.cabecalho__formulario__input {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: var(--black);
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;
+    padding: 0 8px;
+    width: 200px;
+}
+
+.cabecalho__formulario__button {
+    background-color: transparent;
+    background-image: url(../img/lupa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 100%;
+    text-indent: -99999px;
+    width: 50px;
+}
+
+.cabecalho__menu {
+    margin-top: 26px;
+}
+
+.cabecalho__menu .cabecalho__menu__item {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.7;
+}
+
+.cabecalho__menu__item+.cabecalho__menu__item {
+    margin-left: 12px;
+}
+
+.cabecalho__menu__item--active {
+    border-bottom: 2px solid #ffffff;
+}
+
+.footer {
+    background-color: var(--cyan-400);
+    color: var(--white);
+    height: 115px;
+    position: sticky;
+    top: 100vh;
+}
+
+.footer .container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: var(--cyan-400);
+    color: var(--white);
+    height: 115px;
+    position: sticky;
+    top: 100vh;
+}
+
+.footer__contato h2 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer__contato li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-top: 9px;
+    text-indent: 20px;
+}
+
+.footer__contato li+li {
+    margin-top: 4px;
+}
